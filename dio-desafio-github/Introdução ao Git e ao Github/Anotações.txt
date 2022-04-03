@@ -1,2 +1,14 @@
 Link para download do Git: https://git-scm.com/downloads
 O Git Bash é um terminal extendido para otimizar o uso do git.
+
+----------------------------------------------------------------------
+Criando repositório no Github e add pasta pelo Git
+
+echo "# o que você quer que apareça no README" >> README. med
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin (seu link do Github)
+git push - u origin master (main)
+
+----------------------------------------------------------------------
